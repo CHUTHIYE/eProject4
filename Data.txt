@@ -1,0 +1,226 @@
+INSERT INTO `products`(
+    `id`,
+    `can_rent`,
+    `category`,
+    `description`,
+    `name`,
+    `price`,
+    `qty`,
+    `rent_price`,
+    `status`
+)
+VALUES(
+    '1',
+    '0',
+    'Fruit Tree',
+    'Indian Red Pomegranate is a good growing variety, starting to bear fruit after only 12 months. When ripe, Indian Red Pomegranate has a pink to red outer shell with deep red, juicy, sweet and delicious pomegranate seeds inside. The seeds are very firm and contain a lot of water, when bitten, the delicious aroma of pomegranate spreads.
+Characteristics: Leaves are slightly oval, the tip of the leaf is oval, the leaf edge is slightly upturned, the leaf stalk is purple-red. Young shoots are purple-red, and will turn woody when old.',
+    'Indian Red Pomegranate',
+    '90',
+    '80',
+    'null',
+    '1'
+),
+(
+    '2',
+    '0',
+    'Fruit Tree',
+    'Peach Tree is a medium-sized tree, living for many years, each tree is about 5 to 8 meters high. The tree has a canopy that forms a tower shape, the surface of the tree's bark is gray, and the trunk has scales. The leaves grow alternately, but usually grow in clusters of 3 leaves at a node. The leaf blade is intact, hard, smooth, the base of the leaf is narrow, the tip of the leaf is pointed.',
+    'Peach Tree',
+    '250',
+    '120',
+    'null',
+    '1'
+),
+(
+    '3',
+    '0',
+    'Fruit Tree',
+    'Cherry Tree is a perennial hardwood tree. In Europe, many trees reach a height of 10m and spread out long and wide. The tree has long, oblong leaves quite similar to plum leaves. When in bloom, the flowers are white to pale pink.',
+    'Cherry Tree',
+    '250',
+    '75',
+    'null',
+    '1'
+),
+(
+    '4',
+    '0',
+    'Fruit Tree',
+    'Thai Jackfruit tree is a woody plant, mature trees can grow up to 4m high. The tree has many branches, the leaves are dark green, glossy, and grow alternately. Super Early Thai Jackfruit is a fast-growing, easy-to-grow variety that is not picky about soil, grows well on nutrient-rich soil, alluvial soil with good drainage.',
+    'Thai Jackfruit tree ',
+    '80',
+    '100',
+    'null',
+    '1'
+),
+(
+    '5',
+    '0',
+    'Fruit Tree',
+    'Longan tree
+Seedlings are 0.8 - 1m tall, mature trees can be 5-10m tall. The bark is rough and grey. The trunk has many branches, the leaves are lush and green all year round. The leaves are pinnate, alternate, consisting of 5 to 9 narrow leaflets, 7-20cm long, 2.5-5cm wide. In spring, in February, March, and April, the flowers are pale yellow, growing in clusters at the ends of branches or leaf axils, with 5-6 toothed calyxes, 5-6 petals, 6-10 stamens, and 2-3 cells. The round fruit has a grey-yellow outer shell, almost smooth. The seeds are jet black, covered with a white seed coat. The fruiting season is around July-August. Longan trees are relatively more cold-resistant than trees of the same family such as lychee, and are also less picky about soil.',
+    'Longan Tree',
+    '150',
+    '40',
+    'null',
+    '1'
+),
+(	
+	'6',
+	'0',
+	'Fruit Tree',
+	'Purple Mango Tree originates from Thailand, due to the similar climate conditions, the tree grows very well in Vietnam.
+The shape of the fruit when green is very similar to that of Vietnamese mango, but when ripe, the green color will give way to a very strange purple color. Not only that, when the purple mango is cut open, the flesh inside is dark yellow, and has a much sweeter, more delicious taste.
+A ripe purple mango can reach an average weight of 0.8-1.3kg. The purple mango seedling is about 1m tall, can be harvested after 15 months, has a fairly high yield and few pests and diseases.',
+	'Purple Mango Tree',
+	'120',
+	'50',
+	'null',
+	'1'
+),(
+    '7',
+    '0',
+    'Fruit Tree',
+    'Dien Pomelo Tree The variety originates from Doan Hung pomelo, first planted in Phu Dien commune - Tu Liem district - Hanoi. The variety has round fruit, smooth skin, orange-yellow when ripe; average weight from 0.8 - 1kg; edible portion from 55 - 60%; average number of seeds about 50 - 70 seeds; segments and sepals are easily separated. The fruit flesh is yellow-green, crispy, sweet, brix 12 -14%. With gardens from 7 years old and up, the yield is from 25 - 28 tons/ha under average care conditions. Dien pomelo tree has smaller leaves than normal pomelo tree, and the average height is also lower, when mature its average height is about 4m, the tree bark is light yellow, sometimes sap flows out from scratches on the tree trunk, it is a woody tree with fewer thorns than normal pomelo tree.',
+    'Dien Pomelo Tree',
+    '100',
+    '60',
+    'null',
+    '1'
+),(
+    '8',
+    '0',
+    'Fruit Tree',
+    'Longan tree
+Seedlings are 0.8 - 1m tall, mature trees can be 5-10m tall. The bark is rough and grey. The trunk has many branches, the leaves are lush and green all year round. The leaves are pinnate, alternate, consisting of 5 to 9 narrow leaflets, 7-20cm long, 2.5-5cm wide. In spring, in February, March, and April, the flowers are pale yellow, growing in clusters at the ends of branches or leaf axils, with 5-6 toothed calyxes, 5-6 petals, 6-10 stamens, and 2-3 cells. The round fruit has a grey-yellow outer shell, almost smooth. The seeds are jet black, covered with a white seed coat. The fruiting season is around July-August. Longan trees are relatively more cold-resistant than trees of the same family such as lychee, and are also less picky about soil.',
+    'Longan Tree',
+    '150',
+    '40',
+    'null',
+    '1'
+),(
+    '9',
+	'1',
+	'Flowering Tree',
+	'Roses are one of the most popular and beloved flowers of all time and the meaning of roses is also known to most people to some extent. Roses, with their unique combination of thorny stems and flowers, are often highly regarded as a symbol of achievement, completion and perfection. Roses are a perennial plant, with over 100 species. A traditional rose is usually a deep red with long stems and thorns. Different colored roses symbolize different things; yellow roses symbolize friendship, love, maturity and joy. While white roses symbolize reverence, purity, peace and admiration. Red roses symbolize immortal love and passion. Pink roses symbolize renaissance, innocence and first love.',
+    'Roses',
+	'30',
+	'180',
+	'15',
+	'1'
+),(
+    '10',
+	'1',
+	'Flowering Tree',
+	'Tulipe is a symbol of resurrection and determination. This beautiful flower belongs to the Tulip genus and has a total of 109 species. The flower has 6 petals and is separated from each other. Tulips come in many different colors including red, pink, yellow, orange and purple. Tulips are the 11th wedding anniversary flower and represent elegance and grace. Yellow Tulips symbolize joy and white Tulips symbolize forgiveness. Purple Tulips symbolize royalty and red Tulips symbolize passionate love.',
+    'Tulipe',
+	'45',
+	'155',
+	'25',
+	'1'
+),(
+    '11',
+	'1',
+	'Flowering Tree',
+	'Sunflowers (dwarf) are small in size, 30 - 60cm in height, with a flower diameter of 5 - 10cm. The plant is often grown in small pots and decorated on desks, balconies or living rooms. Sunflower leaves are usually very large, alternately arranged, dark green and covered with white hairs on both sides. The flowers are crescent-shaped, with thin petals, bright yellow and brown pistils, bisexual. The diameter of each flower is from 6cm to 20cm. Flowers usually bloom from July to October. ',
+    'Sunflowers (dwarf)',
+	'50',
+	'100',
+	'30',
+	'1'
+),(
+    '12',
+	'1',
+	'Flowering Tree',
+	'Sunflowers (tall) are plants with a size of 1 - 3.5m and a flower diameter of 7 - 10cm. This variety is often grown for visitors and for sale. Sunflower leaves are usually very large, alternately arranged, dark green and covered with white hairs on both sides. The flowers are crescent-shaped, with thin petals, bright yellow and brown pistils, bisexual. The diameter of each flower is from 6cm to 20cm. Flowers usually bloom from July to October. ',
+    'Sunflowers (tall)',
+	'70',
+	'100',
+	'45',
+	'1'
+),(
+    '13',
+	'1',
+	'Flowering Tree',
+	'Lotus Flower is a perennial aquatic herb of the lotus genus. The underground stem is long and thick, with long segments, and the leaf blade is round. Lotus is divided into two main types: ornamental lotus and edible lotus. Originating from tropical and temperate regions of Asia. The whole lotus body is full of treasures, lotus root and lotus seed can be eaten, lotus seed sprouts, rhizomes, lotus seeds, lotus leaves, flowers and seeds can all be used as medicine.',
+    'Lotus Flower',
+	'75',
+	'75',
+	'50',
+	'1'
+),(
+    '14',
+	'1',
+	'Flowering Tree',
+	'Dahlias are the national flower of Mexico. They are a genus of bulbous plants belonging to the Asteraceae family and come in a variety of colours including red, purple, yellow, blue and white. The flowers are 8 to 10cm in diameter and the buds are 2 to 3cm in size.
+    The red color of dahlias symbolizes sweetness in love and lasting happiness, the bright red color of the flower is like the enthusiasm and passion of youth and couples.',
+    'Dahlias (red)',
+	'125',
+	'75',
+	'75',
+	'1'
+),(
+    '15',
+	'1',
+	'Flowering Tree',
+	'Dahlias are the national flower of Mexico. They are a genus of bulbous plants belonging to the Asteraceae family and come in a variety of colours including red, purple, yellow, blue and white. The flowers are 8 to 10cm in diameter and the buds are 2 to 3cm in size.
+    White is often associated with purity and innocence. White dahlias also mean purity but still retain the gentleness and tenderness of a girl.',
+    'Dahlias (white)',
+	'125',
+	'75',
+	'75',
+	'1'
+),(
+        '16',
+        '1',
+        'Flowering Tree',
+        'Dahlias are the national flower of Mexico. They are a genus of bulbous plants belonging to the Asteraceae family and come in a variety of colours. The flowers are 8 to 10cm in diameter and the buds are 2 to 3cm in size.The average height of the flower is about 0.5 to 1m, there are some hybrid varieties of dahlias that are only about 30cm high. 
+        Yellow peony represents luxury and wealth, and it also has another meaning: lasting happiness for couples.',
+        'Dahlias (yellow)',
+        '125',
+        '75',
+        '75',
+        '1'
+),(
+        '17',
+        '1',
+        'Flowering Tree',
+        'Dahlias are the national flower of Mexico. They are a genus of bulbous plants belonging to the Asteraceae family and come in a variety of colours. The flowers are 8 to 10cm in diameter and the buds are 2 to 3cm in size.The average height of the flower is about 0.5 to 1m, there are some hybrid varieties of dahlias that are only about 30cm high. 
+        The pink color of dahlias symbolizes gentleness and sophistication, and it also has the beauty of intelligence.',
+        'Dahlias (pink)',
+        '125',
+        '75',
+        '75',
+        '1'
+),(
+        '18',
+        '1',
+        'Shade Tree',
+        'Barringtonia acutangula is a shade tree with a large canopy: is a fast growing tree, the growing environment and care can be even faster. If you plant it in a large garden, the tree can have a diameter larger than 40cm. If you plant it in a pot in front of the house, the diameter of the trunk will be about 35-40cm.',
+        'Cây lộc vừng',
+        '200',
+        '120',
+        '125',
+        '1'
+    ),(
+        '19',
+        '1',
+        'Shade Tree',
+        'This tree can grow up to 35 m tall, with an upright, symmetrical crown and horizontal branches. As the tree ages, its crown flattens to form a spreading bowl-like shape. The leaves are large, about 15–25 cm long and 10–14 cm broad, ovate, dark green and glossy. It is deciduous during the dry season; the leaves turn pinkish-red or yellowish-brown before falling.',
+        'Banyan',
+        '250',
+        '60',
+        '125',
+        '1'
+    ),(
+        '20',
+        '1',
+        'Shade Tree',
+        'Lagerstroemia is a perennial tree with a beautiful shape and an average height of about 4-15m. The trunk is straight, smooth, highly branched, and has a lush canopy. Lagerstroemia leaves are elliptical or oval, green, large, about 8-15cm long, 3-7cm wide, usually falling in the fall and sprouting in the spring.',
+        'Lagerstroemia',
+        '350',
+        '100',
+        '175',
+        '1'
+    )
